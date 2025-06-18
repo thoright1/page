@@ -1,0 +1,34 @@
+body {
+    font-family: sans-serif;
+}
+
+h3 {
+    color: #3490AE;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+h2 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #3490AE;
+    text-align: center;
+}
+
+p {
+    font-size: 0.9em;
+    color: #707070;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.row.align-items-center.mb-5.flex-md-row-reverse {
+    background-color: #ECECEC;
+}
+
+.row.align-items-center.mb-5 img {
+    width: 100%;
+    height: auto;
+}

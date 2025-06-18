@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    Background-color: #ffffff;
+}
+
+/*Styling for main currency conversion form*/
+#currency-form {
+    background: #F0F4F7;
+    padding: 35px 60px;
+    padding-left: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/*Styling for exchange rate changing form*/
+#exchange {
+    background: #F0F4F7;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 80px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: left;
+    padding-left: 15px;
+}
+
+h1 {
+    color: #2C88D9;
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: center;
+}
+
+select {
+    display: block;
+    width: 420px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    font-size: 1.2em;
+    color: #1a1a1acc;
+}
+
+input {
+    display: block;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/*Styling for convert button*/
+#convert {
+    background-color: #2C88D9;
+    color: #fff;
+    cursor: pointer;
+    width: 420px;
+}
+
+#convert:hover {
+    background-color: #666d74;
+}
+
+/*Styling for change rates button*/
+#change {
+    background-color: #2C88D9;
+    color: #fff;
+    cursor: pointer;
+    width: 420px;
+}
+
+ #change:hover {
+    background-color: #939597;
+}
+
+/*Styling for save button for saving custom exchange rates*/
+#save {
+    background-color: #2C88D9;
+    color: #fff;
+    cursor: pointer;
+    width: 420px;
+}
+
+#save:hover {
+    background-color: #666d74;
+}
+
+/*Styling for results box*/
+#Result {
+    font-size: 1.2em;
+    text-align: center;
+    color: #02002c;
+    background-color: #91caff;
+    padding: 10px 0;
+    width: 419px;
+    margin-left: 10px;
+  }
